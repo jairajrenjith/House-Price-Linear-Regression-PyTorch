@@ -68,4 +68,45 @@ This project demonstrates how a deep learning–style Linear Regression model ca
 
 ---
 
+## Model Details
+- Model type: Multivariate Linear Regression
+- Input layer: Multiple numerical features
+- Output layer: Single continuous value (house price)
+- Loss function: Mean Squared Error (MSE)
+- Optimizer: Stochastic Gradient Descent (SGD)
+
+---
+
+## Training Details
+- The model was trained for multiple epochs to ensure convergence
+- Loss values were recorded at each epoch
+- A loss curve was plotted to visualize learning behavior
+- A comparison plot between actual and predicted prices was used for evaluation
+
+---
+
+## Learning Outcomes
+- Gained hands-on experience with PyTorch tensors
+- Understood how linear regression fits into deep learning workflows
+- Learned how to structure and train models using `torch.nn.Module`
+- Practiced working with CSV datasets in machine learning tasks
+- Understood the importance of evaluation and visualization in regression problems
+
+---
+
+## How to Run the Notebook
+1. Open Google Colab
+2. Upload the `linear_regression_pytorch.ipynb` notebook
+3. Upload the `dataset.csv` file when prompted
+4. Run all cells sequentially to train and evaluate the model
+
+---
+
+## Notes
+- No external virtual environment is required
+- All experiments were conducted in Google Colab
+- The project focuses on clarity and correctness rather than hyperparameter tuning
+
+---
+
 By Jairaj R.
