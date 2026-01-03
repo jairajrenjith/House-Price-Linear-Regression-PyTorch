@@ -40,34 +40,6 @@ The target variable is the house price.
 
 ---
 
-## File Structure
-
-```
-House-Price-Linear-Regression-PyTorch/
-├── linear_regression_pytorch.ipynb
-├── dataset.csv
-├── cognitiveclass_progress.png
-└── README.md
-```
-
----
-
-## Results
-- Training loss decreases steadily across epochs
-- Predicted prices closely follow the actual house prices
-
----
-
-## Proof of Completion
-A screenshot showing 100% completion of the Linear Regression course on CognitiveClass.ai is included in this repository.
-
----
-
-## Conclusion
-This project demonstrates how a deep learning–style Linear Regression model can be implemented using PyTorch tensors and trained effectively on real-world numerical data.
-
----
-
 ## Model Details
 - Model type: Multivariate Linear Regression
 - Input layer: Multiple numerical features
@@ -85,12 +57,20 @@ This project demonstrates how a deep learning–style Linear Regression model ca
 
 ---
 
-## Learning Outcomes
-- Gained hands-on experience with PyTorch tensors
-- Understood how linear regression fits into deep learning workflows
-- Learned how to structure and train models using `torch.nn.Module`
-- Practiced working with CSV datasets in machine learning tasks
-- Understood the importance of evaluation and visualization in regression problems
+## File Structure
+
+```
+House-Price-Linear-Regression-PyTorch/
+├── linear_regression_pytorch.ipynb
+├── dataset.csv
+├── cognitiveclass_progress.png
+└── README.md
+```
+
+---
+
+## Proof of Completion
+A screenshot showing 100% completion of the Linear Regression course on CognitiveClass.ai is included in this repository.
 
 ---
 
@@ -102,10 +82,31 @@ This project demonstrates how a deep learning–style Linear Regression model ca
 
 ---
 
+## Learning Outcomes
+- Gained hands-on experience with PyTorch tensors
+- Understood how linear regression fits into deep learning workflows
+- Learned how to structure and train models using `torch.nn.Module`
+- Practiced working with CSV datasets in machine learning tasks
+- Understood the importance of evaluation and visualization in regression problems
+
+---
+
+
+## Results
+- Training loss decreases steadily across epochs
+- Predicted prices closely follow the actual house prices
+
+---
+
 ## Notes
 - No external virtual environment is required
 - All experiments were conducted in Google Colab
 - The project focuses on clarity and correctness rather than hyperparameter tuning
+
+---
+
+## Conclusion
+This project demonstrates how a deep learning–style Linear Regression model can be implemented using PyTorch tensors and trained effectively on real-world numerical data.
 
 ---
 
