@@ -69,11 +69,6 @@ House-Price-Linear-Regression-PyTorch/
 
 ---
 
-## Proof of Completion
-A screenshot showing 100% completion of the Linear Regression course on CognitiveClass.ai is included in this repository.
-
----
-
 ## How to Run the Notebook
 1. Open Google Colab
 2. Upload the `linear_regression_pytorch.ipynb` notebook
@@ -91,6 +86,10 @@ A screenshot showing 100% completion of the Linear Regression course on Cognitiv
 
 ---
 
+## Proof of Completion
+A screenshot showing 100% completion of the Linear Regression course on CognitiveClass.ai is included in this repository.
+
+---
 
 ## Results
 - Training loss decreases steadily across epochs
