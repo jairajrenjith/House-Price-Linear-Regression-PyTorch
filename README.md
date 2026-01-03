@@ -10,6 +10,15 @@ Build and train a Linear Regression model using a CSV dataset and PyTorch tensor
 
 ---
 
+## Approach
+- Loaded the CSV dataset using pandas
+- Converted input features and target values into PyTorch tensors
+- Built a Linear Regression model using `torch.nn.Module`
+- Trained the model using the Stochastic Gradient Descent (SGD) optimizer
+- Evaluated the model using a training loss curve and prediction comparison
+
+---
+
 ## Dataset
 The dataset contains multiple numerical features related to housing properties:
 - Distance to city center
@@ -19,15 +28,6 @@ The dataset contains multiple numerical features related to housing properties:
 - Year built
 
 The target variable is the house price.
-
----
-
-## Approach
-- Loaded the CSV dataset using pandas
-- Converted input features and target values into PyTorch tensors
-- Built a Linear Regression model using `torch.nn.Module`
-- Trained the model using the Stochastic Gradient Descent (SGD) optimizer
-- Evaluated the model using a training loss curve and prediction comparison
 
 ---
 
